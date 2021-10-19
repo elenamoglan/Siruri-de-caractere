@@ -1,6 +1,5 @@
 n=int(input('Introduceti numarul de siruri:'))
 S=[str(input('Introduceti literele sirului: ')) for i in range(n)]
-print(S)
 S1=''
 print('Sirurile sunt:')
 for i in S:
