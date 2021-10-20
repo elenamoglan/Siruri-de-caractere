@@ -18,5 +18,4 @@ for i in range(len(S)):
     else:
         S1=S1 + S[i]
 print('j)şirul obţinut prin transformarea primei litere a fiecăruia dintre cuvintele din componenţa şirului S în literă mare:', S1)
-print('k)şirul obţinut prin sortarea în ordine alfabetică a caracterelor din şirul S:', ''.join(sorted(S, key=lambda x:x.lower()))) #ordinea alfabetica cu spatiile
-print('k)şirul obţinut prin sortarea în ordine alfabetică a caracterelor din şirul S:', ''.join(filter(lambda x:x.isalpha(), sorted(S, key=lambda x:x.lower())))) #ordinea alfabetica fara spatii
+print('k)şirul obţinut prin sortarea în ordine alfabetică a caracterelor din şirul S:', ''.join(filter(lambda x:x.isalpha(), sorted(S, key=lambda x:x.lower()))))
